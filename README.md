@@ -26,7 +26,8 @@ O projeto contém os seguintes arquivos e pastas:
 
 ## Autor
 
-[Marcelo Rodrigues]
+MarceloRodrigues1853
+
 
 ## Agradecimentos
 
