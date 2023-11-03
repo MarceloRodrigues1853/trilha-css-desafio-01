@@ -173,3 +173,9 @@ footer .dio-logo {
     width: 300px; /* Define a largura do logotipo do rodapé como 300 pixels */
     /* Define a largura do logotipo do rodapé */
 }
+
+footer a {
+  color: #33A8DB;
+  font-weight: bold;
+  text-decoration: none;
+}
