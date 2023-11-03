@@ -53,13 +53,13 @@ section {
 
 /* Estilos para o título */
 .banner h1 {
-    font-size: 2.5rem; /* Define o tamanho da fonte para o título */
-    font-weight: 900; /* Define a espessura da fonte como bold */
-    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
-    color: transparent; /* Define a cor do texto como transparente */
-    background: -webkit-linear-gradient(#33A8DB, #1472B7); /* Aplica um gradiente de fundo ao texto */
-    background-clip: text; /* Define o recorte de fundo como texto */
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
     -webkit-background-clip: text; /* Define o recorte de fundo como texto para compatibilidade com navegadores mais antigos */
+    background-clip: text; /* Define o recorte de fundo como texto */
 }
 
 /* Estilos para o parágrafo no cabeçalho */
