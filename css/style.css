@@ -1,0 +1,175 @@
+/* Importa o arquivo reset.css para redefinir estilos padrão */
+@import url('reset.css');
+
+/* Estilos para o corpo do documento */
+body {
+    background-color: black; /* Define a cor de fundo para o corpo do documento como preto */
+}
+
+/* Estilos para as seções principais */
+main {
+    padding: 20px; /* Adiciona preenchimento interno à seção principal */
+}
+
+/* Estilos para o subtítulo */
+h2 {
+    font-size: 2rem; /* Define o tamanho da fonte para o subtítulo */
+    color: #33A8DB; /* Define a cor do texto para o subtítulo */
+    font-weight: bold; /* Define a espessura da fonte como negrito */
+    letter-spacing: 4px; /* Define o espaçamento entre caracteres */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    margin-bottom: 24px; /* Adiciona espaço abaixo do subtítulo */
+}
+
+/* Estilos para o parágrafo */
+p {
+    color: white; /* Define a cor do texto do parágrafo como branco */
+    /* Define a cor do texto do parágrafo */
+}
+
+/* Estilos para a seção principal */
+section {
+    margin: 100px auto; /* Define as margens superior e inferior e centraliza a seção horizontalmente */
+}
+
+/* Estilos para o cabeçalho */
+.banner {
+    /* Define o cabeçalho com uma imagem de fundo e um gradiente sobreposto */
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('/assets/images/banner.png');
+    background-size: cover; /* Define o tamanho da imagem de fundo para cobrir todo o cabeçalho */
+    background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+    height: 600px; /* Define a altura do cabeçalho como 600 pixels */
+    padding-top: 60px; /* Adiciona preenchimento acima do cabeçalho */
+    border-bottom: 1px solid #33A8DB80; /* Adiciona uma borda na parte inferior do cabeçalho */
+}
+
+/* Estilos para o conteúdo do cabeçalho */
+.banner .banner-content {
+    color: white; /* Define a cor do texto do conteúdo do cabeçalho como branco */
+    width: 600px; /* Define a largura do conteúdo do cabeçalho como 600 pixels */
+    margin: auto; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para o título */
+.banner h1 {
+    font-size: 2.5rem; /* Define o tamanho da fonte para o título */
+    font-weight: 900; /* Define a espessura da fonte como bold */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    color: transparent; /* Define a cor do texto como transparente */
+    background: -webkit-linear-gradient(#33A8DB, #1472B7); /* Aplica um gradiente de fundo ao texto */
+    background-clip: text; /* Define o recorte de fundo como texto */
+    -webkit-background-clip: text; /* Define o recorte de fundo como texto para compatibilidade com navegadores mais antigos */
+}
+
+/* Estilos para o parágrafo no cabeçalho */
+.banner p {
+    font-size: 1.25rem; /* Define o tamanho da fonte para o parágrafo */
+    margin: 16px 0 24px; /* Define as margens acima, abaixo e abaixo do parágrafo */
+}
+
+/* Estilos para o logotipo no cabeçalho */
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2); /* Define a cor de fundo para o logotipo como um tom de preto transparente */
+    height: 260px; /* Define a altura do logotipo como 260 pixels */
+    width: 260px; /* Define a largura do logotipo como 260 pixels */
+    margin: auto; /* Centraliza o logotipo horizontalmente */
+    border-radius: 50%; /* Define o raio da borda como 50% para criar um formato circular */
+    padding: 16px; /* Adiciona preenchimento interno ao logotipo */
+    margin-bottom: 16px; /* Adiciona espaço abaixo do logotipo */
+}
+
+/* Estilos para a imagem do logotipo no cabeçalho */
+.banner .logo img {
+    margin: auto; /* Centraliza a imagem horizontalmente */
+    width: 100%; /* Define a largura da imagem como 100% */
+    height: 100%; /* Define a altura da imagem como 100% */
+    object-fit: contain; /* Redimensiona a imagem para caber no contêiner mantendo a proporção original */
+}
+
+/* Estilos para o botão no cabeçalho */
+.banner .banner-content button {
+    color: #31A8DD; /* Define a cor do texto para o botão */
+    font-size: 1rem; /* Define o tamanho da fonte para o botão */
+    font-weight: bold; /* Define a espessura da fonte como bold */
+    padding: 16px 32px; /* Adiciona preenchimento interno ao botão */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 4px; /* Define o espaçamento entre caracteres */
+    background-color: transparent; /* Define a cor de fundo para o botão como transparente */
+    border-image: linear-gradient(#3BA1CD, #1572B7); /* Define a imagem de borda como um gradiente */
+    border-image-slice: 10; /* Define as partes da imagem da borda que devem ser desenhadas */
+    border-radius: 30px; /* Define o raio da borda como 30 pixels para criar um formato arredondado */
+}
+
+/* Estilos para a seção de conteúdo do curso */
+#course-content {
+    width: 800px; /* Define a largura da seção de conteúdo do curso como 800 pixels */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para a lista de módulos */
+#course-content .modules-list {
+    margin: 24px 0; /* Define as margens acima e abaixo da lista de módulos */
+}
+
+/* Estilos para cada módulo na lista de módulos */
+#course-content .modules-list .module {
+    color: white; /* Define a cor do texto para cada módulo como branco */
+    width: 530px; /* Define a largura de cada módulo como 530 pixels */
+    margin: 0 auto 24px; /* Define as margens superior, inferior e inferior de cada módulo e centraliza horizontalmente */
+    border: 1px solid #33A8DB; /* Adiciona uma borda sólida aos módulos com a cor #33A8DB */
+    background-color: #252525; /* Define a cor de fundo para os módulos como um tom de preto */
+    padding: 16px; /* Adiciona preenchimento interno aos módulos */
+    border-radius: 100px; /* Define o raio da borda como 100 pixels para criar um formato arredondado */
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7); /* Adiciona uma sombra interna aos módulos */
+}
+
+/* Estilos para o texto com destaque dentro de cada módulo */
+#course-content .modules-list .module span {
+    color: #33A8DB; /* Define a cor do texto com destaque como #33A8DB */
+}
+
+/* Estilos para a seção "TRANSFORME O MUNDO COM A GENTE" */
+#transform-world {
+    height: 560px; /* Define a altura da seção como 560 pixels */
+    background-size: cover; /* Define o tamanho da imagem de fundo para cobrir toda a seção */
+    background-image: url("/assets/images/woman-code.png"); /* Define a imagem de fundo como woman-code.png */
+    background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com o restante do conteúdo */
+    border-top: 1px solid #33A8DB80; /* Adiciona uma borda superior à seção com a cor #33A8DB80 */
+    border-bottom: 1px solid #33A8DB80; /* Adiciona uma borda inferior à seção com a cor #33A8DB80 */
+    padding: 200px; /* Adiciona preenchimento interno à seção */
+}
+
+/* Estilos para o texto dentro da seção "TRANSFORME O MUNDO COM A GENTE" */
+#transform-world p {
+    font-weight: 900; /* Define a espessura da fonte como bold */
+    font-size: 2.5rem; /* Define o tamanho da fonte como 2.5rem */
+    text-transform: lowercase; /* Transforma o texto em letras minúsculas */
+    max-width: 250px; /* Define a largura máxima do texto como 250 pixels */
+    text-shadow: 3px 2px #33A8DB; /* Adiciona uma sombra ao texto */
+}
+
+/* Estilos para a seção "Evolua e encare novos desafios profissionais" */
+#professional-challenges {
+    text-align: center; /* Alinha o texto ao centro */
+    width: 800px; /* Define a largura da seção como 800 pixels */
+}
+
+/* Estilos para a imagem da seção "Evolua e encare novos desafios profissionais" */
+#professional-challenges img {
+    margin: 32px 0; /* Define as margens acima e abaixo da imagem */
+}
+
+/* Estilos para o rodapé */
+footer {
+    padding: 60px 0; /* Adiciona preenchimento interno ao rodapé */
+    text-align: center; /* Alinha o texto ao centro */
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2)); /* Aplica um gradiente de fundo ao rodapé */
+    border-top: 1px solid #33A8DB80; /* Adiciona uma borda superior ao rodapé com a cor #33A8DB80 */
+}
+
+/* Estilos para o logotipo do rodapé */
+footer .dio-logo {
+    width: 300px; /* Define a largura do logotipo do rodapé como 300 pixels */
+    /* Define a largura do logotipo do rodapé */
+}
